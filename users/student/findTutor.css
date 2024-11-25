@@ -1,0 +1,79 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.find-container {
+  display: grid !important;
+  grid-template-columns: repeat(4, auto);
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.tutor {
+  background-color: #644bb1;
+  padding: 15px 0;
+  color: white;
+  width: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.tutor form {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: center;
+}
+
+.tutor form button {
+  padding: 5px 10px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#subject {
+  width: 100px;
+  border: 2px solid #644bb1;
+  color: #644bb1;
+  border-radius: 5px;
+  padding: 0 5px;
+  background-color: transparent;
+  font-weight: bolder;
+}
+#subject-submit {
+  padding: 0 5px;
+  height: 25px;
+  background-color: #644bb1;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.tutor-profile {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.tutor-default {
+  height: 100px;
+  width: 100px;
+  filter: invert();
+}
